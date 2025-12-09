@@ -35,10 +35,11 @@ workflow_status:
 
       - id: "product-brief"
         name: "产品简报"
-        status: "optional"
+        status: "docs/analysis/product-brief-happy-server-go-2025-12-09.md"
         agent: "analyst"
         command: "/bmad:bmm:workflows:create-product-brief"
         note: "战略产品规划 (推荐用于 greenfield 项目)"
+        completed: "2025-12-09"
 
   # Phase 1: Planning
   - phase: 1
