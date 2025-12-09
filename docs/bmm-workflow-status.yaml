@@ -65,10 +65,11 @@ workflow_status:
     workflows:
       - id: "create-architecture"
         name: "系统架构"
-        status: "required"
+        status: "docs/architecture.md"
         agent: "architect"
         command: "/bmad:bmm:workflows:create-architecture"
         note: "greenfield 项目的完整系统设计"
+        completed: "2025-12-10"
 
       - id: "create-epics-and-stories"
         name: "Epic 和 Story"
